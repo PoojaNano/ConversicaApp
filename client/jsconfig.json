@@ -4,6 +4,10 @@
     "module": "esnext",
     "baseUrl": "./",
     "moduleResolution": "node",
+    "scripts": {
+      "start": "node server.js",
+      "dev": "nodemon app.js"
+  },
     "paths": {
       "@/*": [
         "src/*"
