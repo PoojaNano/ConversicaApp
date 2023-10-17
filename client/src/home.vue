@@ -29,9 +29,9 @@
       data() {
         return {
           users: [
-            {  name: 'abc',   skills: 'abc' ,  conversation: '20', type:'sms', contacts: '3'},
-            {  name: 'abc',   skills: 'abc' ,  conversation: '50', type:'sms', contacts: '3'},
-            {  name: 'abc',   skills: 'abc' ,  conversation: '40', type:'sms', contacts: '3' }
+            {  name: 'ABC',   skills: 6 ,  conversation: '20', type:'sms', contacts: '415'},
+            {  name: 'XYZ',   skills: 8 ,  conversation: '150', type:'sms', contacts: '321'},
+            {  name: 'ABC',   skills: 5 ,  conversation: '240', type:'sms', contacts: '123' }
           ]
         };
       }
