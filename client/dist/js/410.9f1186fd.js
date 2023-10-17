@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkconversica_app"]=self["webpackChunkconversica_app"]||[]).push([[410],{2410:function(n,a,e){e.r(a),e.d(a,{default:function(){return l}});var u=e(3396);const c={class:"about-page"},s=(0,u._)("h1",null,null,-1);function r(n,a){const e=(0,u.up)("p1");return(0,u.wg)(),(0,u.iD)("main",c,[s,(0,u.Wm)(e,null,{default:(0,u.w5)((()=>[(0,u.Uk)("This is Description page")])),_:1})])}var t=e(89);const i={},p=(0,t.Z)(i,[["render",r]]);var l=p}}]);
+//# sourceMappingURL=410.9f1186fd.js.map
