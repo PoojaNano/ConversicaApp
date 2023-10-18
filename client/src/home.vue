@@ -1,9 +1,8 @@
 <template>
-    <h3>Sample Table </h3>
       <div class="table-container">
         <table>
           <thead>
-            <tr>
+            <tr >
               <th>Name</th>
               <th>Skills</th>
               <th>Conversation</th>
@@ -12,7 +11,7 @@
             </tr>
           </thead>
           <tbody>
-            <tr v-for="user in users" :key="user.id">
+            <tr v-for="user in users" :key="user.id" >
               <td>{{ user.name }}</td>
               <td>{{ user.skills }}</td>
               <td>{{ user.conversation }}</td>
@@ -39,22 +38,22 @@
     </script>
     <style scoped>
     .table-container {
-      margin: 20px;
+      margin: 100px;
     }
     
     table {
-      width: 100%;
-      border-collapse: collapse;
+      width: 300%;
+      
     }
     
     th, td {
-      border: 1px solid #ccc;
-      padding: 10px;
+      
+      padding: 5px;
       text-align: left;
     }
     
     th {
-      background-color: #f2f2f2;
+      background-color: #403f3f00;
     }
     </style>
     

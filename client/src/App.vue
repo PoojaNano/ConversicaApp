@@ -1,19 +1,21 @@
 <template>
 	<div class="app">
-		
+		<!-- sidebar -->
 		<sidebar />
+
+		<!-- Content -->
 		<router-view />
 	</div>
 </template>
 
 <script setup>
-import sidebar from './components/sidebar.vue'
+import Sidebar from './components/sidebar.vue';
 </script>
 
 <style lang="scss">
 :root {
-	--primary: #4ade80;
-	--primary-alt: #22c55e;
+	--primary:  #64748b;
+	--primary-alt:  #64748b;
 	--grey: #64748b;
 	--dark: #1e293b;
 	--dark-alt: #334155;

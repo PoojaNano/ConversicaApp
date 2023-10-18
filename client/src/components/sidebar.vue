@@ -7,6 +7,7 @@
 		<div class="menu">
 			<router-link to="/" class="button">
 				<span class="material-icons">Assistants</span>
+				
 			</router-link>
 			<router-link to="/about" class="button">
 				<span class="material-icons">Description</span>
@@ -16,7 +17,11 @@
 				<span class="material-icons">Journey</span>
 				
 			</router-link>
+			
 		</div>
+
+		<div class="flex"></div>
+		
 	</aside>
 </template>
 
@@ -40,7 +45,7 @@ aside {
 	background-color: var(--dark);
 	color: var(--light);
 
-	width: calc(10rem + 64px);
+	width: calc(1rem + 16px);
 	overflow: hidden;
 	min-height: 100vh;
 	padding: 1rem;
@@ -55,7 +60,7 @@ aside {
 		margin-bottom: 1rem;
 
 		img {
-			width: 12rem;
+			width: 8rem;
 		}
 	}
 
@@ -109,7 +114,7 @@ aside {
 			padding: 0.5rem 1rem;
 
 			.material-icons {
-				font-size: 2rem;
+				font-size: 1rem;
 				color: var(--light);
 				transition: 0.2s ease-in-out;
 			}
